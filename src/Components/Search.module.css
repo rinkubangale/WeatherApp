@@ -1,0 +1,31 @@
+.searchBar {
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  outline: 2px solid #dedede;
+  border-radius: 10px;
+  font-size: 30px;
+  box-shadow: 0px 0px 10px #aaa;
+  /* flex-direction: column; */
+}
+
+.inputTag {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+
+.searchBar [input] {
+  font-size: 14px;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.searchBar ::placeholder {
+  font-size: 14px;
+  font-weight: bold;
+  color: #aaa;
+}
